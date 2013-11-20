@@ -9,6 +9,7 @@
     "grunt-contrib-compass": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-express-server": "latest",
-    "grunt-jade": "latest"
+    "grunt-jade": "latest",
+    "request": "latest"
   }
 }
