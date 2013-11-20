@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "name": "",
+  "dependencies": {
+    "express": "latest",
+    "grunt": "latest",
+    "grunt-coffeelint": "latest",
+    "grunt-contrib-coffee": "latest",
+    "grunt-contrib-compass": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-express-server": "latest",
+    "grunt-jade": "latest"
+  }
+}
