@@ -33,6 +33,7 @@ module.exports = (grunt) ->
           noLineComments: false
           imagesDir: 'assets/img'
           debugInfo: false
+          relativeAssets: true
     express:
       all:
         options:
