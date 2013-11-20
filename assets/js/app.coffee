@@ -1,4 +1,4 @@
-jenkinsAPIEndPoint = 'api.json'
+jenkinsAPIEndPoint = 'sample-api.json'
 
 $ () ->
   class App
