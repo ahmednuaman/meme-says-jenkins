@@ -18,12 +18,12 @@
 /* line 16, styles.sass */
 #loader {
   background-color: white;
-  background-image: url('/assets/img/ajax-loader.gif?1384934633'); }
+  background-image: url('../img/ajax-loader.gif?1384934633'); }
 
 /* line 21, styles.sass */
 #error {
   background-color: black;
-  background-image: url('/assets/img/error.jpg?1384935717'); }
+  background-image: url('../img/error.jpg?1384935717'); }
 
 /* line 26, styles.sass */
 .build,
@@ -39,7 +39,7 @@
   .build .meme {
     width: 100%;
     padding-top: 75%;
-    background-image: url('/assets/img/build-grey.jpg?1384937671');
+    background-image: url('../img/build-grey.jpg?1384937671');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -60,19 +60,19 @@
       font-weight: bolder; }
   /* line 64, styles.sass */
   .build.red .meme, .build.aborted .meme, .build.disabled .meme, .build.nobuilt .meme {
-    background-image: url('/assets/img/build-red.jpg?1384937576'); }
+    background-image: url('../img/build-red.jpg?1384937576'); }
   /* line 67, styles.sass */
   .build.red .info, .build.aborted .info, .build.disabled .info, .build.nobuilt .info {
     background: #e01818; }
   /* line 71, styles.sass */
   .build.yellow .meme {
-    background-image: url('/assets/img/build-yellow.jpg?1384936209'); }
+    background-image: url('../img/build-yellow.jpg?1384936209'); }
   /* line 74, styles.sass */
   .build.yellow .info {
     background: #f0af00; }
   /* line 78, styles.sass */
   .build.blue .meme {
-    background-image: url('/assets/img/build-blue.jpg?1384936290'); }
+    background-image: url('../img/build-blue.jpg?1384936290'); }
   /* line 81, styles.sass */
   .build.blue .info {
     background: #00a651; }
