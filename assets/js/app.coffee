@@ -71,6 +71,6 @@ $ () ->
 
       @hideLoader()
 
-      # setTimeout fetchData, 3000
+      setTimeout fetchData, 60000
 
   new App()
