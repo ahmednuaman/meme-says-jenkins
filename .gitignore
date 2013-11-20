@@ -1,0 +1,9 @@
+.sass-*
+*.html
+*.log
+*.map
+*.sassc
+assets/**/*.js
+assets/**/*.css
+assets/img/*.png
+node_modules
