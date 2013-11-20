@@ -23,14 +23,16 @@
     color: #000
     image: image-url('error.jpg')
 
-.build
+.build,
+.meme,
+.info
   display: block
   float: left
+
+.build
   width: 33.3%
 
   .meme
-    display: block
-    float: left
     width: 100%
     height: 375px
     background:
@@ -39,6 +41,22 @@
       repeat: no-repeat
       size: cover
 
+  .info
+    width: 100%
+    height: 50px
+    padding: 10px 0
+    overflow: hidden
+    text-align: center
+    background: #cccccc
+
+    .name
+      color: #fff
+      text-decoration: none
+      line-height: normal
+      font:
+        size: 25px
+        weight: bolder
+
   &.red,
   &.aborted,
   &.disabled,
@@ -46,10 +64,19 @@
     .meme
       background-image: image-url('build-red.jpg')
 
+    .info
+      background: #e01818
+
   &.yellow
     .meme
       background-image: image-url('build-yellow.jpg')
 
+    .info
+      background: #f0af00
+
   &.blue
     .meme
       background-image: image-url('build-blue.jpg')
+
+    .info
+      background: #00a651
