@@ -58,6 +58,8 @@ $ () ->
       @app.empty()
 
       $.each jobs, (i, job) =>
+        return if job.color in ['disabled', 'notbuilt']
+
         build = @template.clone()
         buildLink = build.find 'a'
 
@@ -71,6 +73,6 @@ $ () ->
 
       @hideLoader()
 
-      # setTimeout fetchData, 3000
+      setTimeout fetchData, 60000
 
   new App()
