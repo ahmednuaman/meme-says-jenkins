@@ -69,7 +69,10 @@ $(function() {
       fetchData = $.proxy(this.fetchData, this);
       this.app.empty();
       $.each(jobs, function(i, job) {
-        var build, buildLink;
+        var build, buildLink, _ref;
+        if ((_ref = job.color) === 'disabled' || _ref === 'notbuilt') {
+          return;
+        }
         build = _this.template.clone();
         buildLink = build.find('a');
         build.addClass(job.color);
@@ -78,7 +81,8 @@ $(function() {
         buildLink.text(job.name);
         return _this.app.append(build);
       });
-      return this.hideLoader();
+      this.hideLoader();
+      return setTimeout(fetchData, 60000);
     };
 
     return App;
