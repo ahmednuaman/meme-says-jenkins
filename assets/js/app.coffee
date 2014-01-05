@@ -58,6 +58,8 @@ $ () ->
       @app.empty()
 
       $.each jobs, (i, job) =>
+        return if job.color in ['disabled', 'notbuilt']
+
         build = @template.clone()
         buildLink = build.find 'a'
 
