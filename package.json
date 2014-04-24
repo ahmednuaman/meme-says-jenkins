@@ -1,15 +1,40 @@
 {
+  "name": "meme-says-jenkins",
   "version": "0.0.1",
-  "name": "",
+  "description": "A meme monitor for Jenkins CI",
+  "main": "server.coffee",
   "dependencies": {
-    "express": "latest",
-    "grunt": "latest",
-    "grunt-coffeelint": "latest",
-    "grunt-contrib-coffee": "latest",
-    "grunt-contrib-compass": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-express-server": "latest",
-    "grunt-jade": "latest",
-    "request": "latest"
-  }
+    "express": "~3.4.4",
+    "grunt-coffeelint": "~0.0.7",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt": "~0.4.1",
+    "grunt-express-server": "~0.4.5",
+    "request": "~2.27.0",
+    "grunt-jade": "~0.4.0",
+    "grunt-contrib-compass": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ahmednuaman/meme-says-jenkins.git"
+  },
+  "keywords": [
+    "jenkins",
+    "meme",
+    "ci",
+    "grumpy",
+    "cat",
+    "doge",
+    "wow"
+  ],
+  "author": "Ahmed Nuaman (ahmed@ahmednuaman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmednuaman/meme-says-jenkins/issues"
+  },
+  "homepage": "https://github.com/ahmednuaman/meme-says-jenkins"
 }
